@@ -1,11 +1,20 @@
-// import
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
-      <h1>Association</h1>
-      <a href="#">link</a>
-    </div>
+    <>
+    <Router>
+      <Switch>
+        <Route>
+
+        </Route>
+      </Switch>
+    </Router>
+    </>
   );
 }
 

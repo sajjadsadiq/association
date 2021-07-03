@@ -4,13 +4,15 @@ import {
   Route,
 } from "react-router-dom";
 
+import HomePage from "./components/HomePage/HomePage/HomePage";
+
 function App() {
   return (
     <>
     <Router>
       <Switch>
-        <Route>
-
+        <Route path="/">
+          <HomePage/>
         </Route>
       </Switch>
     </Router>

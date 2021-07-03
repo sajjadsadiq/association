@@ -1,3 +1,4 @@
+import Home from './components/HomePage/Home/Home'
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <Router>
+    <Home></Home>
       <Switch>
         <Route>
 

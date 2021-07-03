@@ -1,0 +1,1 @@
+//The slider part will be design by this component

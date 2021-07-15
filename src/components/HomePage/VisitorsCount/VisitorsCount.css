@@ -1,0 +1,17 @@
+.count{
+  background-image: url('https://images.creativemarket.com/0.1.0/ps/7700738/1820/1213/m1/fpnw/wm1/gofaed9r86mkv0ugj8490yqbxbndag6wsurzrg7yrzqeb5jzsxfq91m28kml5cjh-.jpg?1580823576&s=14f62d4aa4baf5c08c7d9ce7092cee06');
+  position: relative;
+  background-position: center;
+}
+
+.count-text{
+    color:darkorange;
+    font-weight:bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%); */
+    font-size : 25px;
+
+}

@@ -1,3 +1,38 @@
 footer{
-    background-image:url(../../../images/footer-bg.jpg)
+    background:url(../../../images/footer-bg.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-position: center;
+    text-align: left;
+}
+.footer-title h3{
+    font-weight: bold;
+
+}
+
+.link{
+    color:grey;
+    position:relative;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+}
+
+.link::before{
+  content: ">>";
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.link:hover::before{
+    color:green;
+}
+
+.link:hover{
+    color: green;
+    font-size: 18px;
+    border-color: green;
+    transition:all ease 0.5s;
+    overflow: hidden;
 }

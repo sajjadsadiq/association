@@ -2,6 +2,7 @@ import React from 'react';
 import "./NavBar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode, faBars ,faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     // const [click, setClick] = useState(false);
@@ -48,6 +49,7 @@ const NavBar = () => {
                             <li><a href="">Services</a></li>
                             <li><a href="">Dashboard</a></li>
                             <li><a href="">Contact Us</a></li>
+                            <Link to="/userdashboard"> <a href="">UserDashboard</a> </Link>
                             <li><button type="button" className="btn btn-danger"><span style={{ fontWeight: "bold", fontSize: "17px" }}>Login</span></button></li>
                         </ul>
                     </nav>
